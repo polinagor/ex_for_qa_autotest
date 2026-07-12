@@ -7,7 +7,7 @@ repositories {
 }
 
 dependencies {
-    testImplementation ()
+    testImplementation()
 }
 
 tasks.withType(JavaCompile) {
