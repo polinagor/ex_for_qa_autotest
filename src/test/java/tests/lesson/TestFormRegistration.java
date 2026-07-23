@@ -50,7 +50,7 @@ public class TestFormRegistration {
     $(byText("Delhi")).click();
     $("#city").shouldHave(text("Delhi"));
 
-    //загрузка картинки как вообще
+    //загрузка картинки как вообще у меня не видно
     $("#uploadPicture").uploadFromClasspath("Кот.jpg");
     $("[id=submit]").click();
 
