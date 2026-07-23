@@ -7,7 +7,10 @@ repositories {
 }
 
 dependencies {
-    testImplementation ("org.junit.jupiter:junit-jupiter:5.14.2")
+    testImplementation (
+            "com.codeborne:selenide:7.14.0",
+            'org.junit.jupiter:junit-jupiter:5.14.2',
+            'org.seleniumhq.selenium:selenium-devtools-v150:4.40.0')
 }
 
 tasks.withType(JavaCompile) {
